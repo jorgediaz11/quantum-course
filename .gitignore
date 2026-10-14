@@ -1,0 +1,29 @@
+@"
+# Entorno virtual
+venv/
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Resultados pesados
+results/*.png
+results/*.pdf
+data/*.csv
+
+# Modelos
+*.pkl
+*.joblib
+
+# IDE
+.vscode/
+.idea/
+*.swp
+"@ | Out-File -FilePath .gitignore -Encoding utf8
